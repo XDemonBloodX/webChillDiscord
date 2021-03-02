@@ -689,10 +689,6 @@ header.active {
     top: 0;
 }
 
-.margMouse {
-    margin-top: 2%;
-}
-
 #c {
     position: absolute;
     height: auto;
