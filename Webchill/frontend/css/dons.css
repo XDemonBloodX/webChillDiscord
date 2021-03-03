@@ -54,7 +54,7 @@
 }
 
 .jumbotron {
-    padding-top: 12em;
+    padding-top: 8em;
     padding-bottom: 10em;
 }
 
@@ -106,5 +106,11 @@
     }
     .jumbotron {
         padding-top: 10em;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    .container {
+        width: 62%;
     }
 }
