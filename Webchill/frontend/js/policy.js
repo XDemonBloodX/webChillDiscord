@@ -2,8 +2,6 @@ cookieAgree = $(".cookJs");
 
 var cook = document.cookie.split(';');
 const ipCurrent = getCurrentIp();
-
-console.log(ipCurrent);
 if (cook[0] == "policy=accept:" + ipCurrent) {
     cookieAgree.css('display', 'none');
 } else {
@@ -12,7 +10,6 @@ if (cook[0] == "policy=accept:" + ipCurrent) {
 
 
 $("#spaceBtnPrivacy").click(function() {
-    console.log("l")
     document.cookie = "policy=accept:" + ipCurrent;
     cookieAgree.css('display', 'none');
 });
