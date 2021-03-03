@@ -824,11 +824,14 @@ header.active {
     }
 }
 
+.cookJs {
+    display: none;
+}
+
 body {
-    margin-top: 25px;
     font-size: 21px;
     text-align: center;
-    animation: fadein 2s;
+    animation: fadein 4s;
     -moz-animation: fadein 2s;
     /* Firefox */
     -webkit-animation: fadein 2s;
